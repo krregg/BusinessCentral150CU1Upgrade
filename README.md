@@ -1,5 +1,5 @@
-# Business Central 150 CU1 Upgrade Script
+# Business Central Upgrade Scripts
 
-Use this script to prepare database for upgrade from BC140 Spring version to BC150 CU1 Wave2.
+Use this script to prepare database for upgrade from BC140 Spring version to BC170.
 
 Before running update variable values

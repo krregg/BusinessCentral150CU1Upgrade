@@ -59,7 +59,7 @@ $licenceFilePath = "C:\temp\BC170\licence\licence.flf"
 $dbName = "db"
 $newApplicationVersion = 17.0.16993.0
 
-Invoke-NAVApplicationDatabaseConversion -DatabaseServer NL-SI-X09426A\mssql19 -DatabaseName $dbName -Verbose -Force
+Invoke-NAVApplicationDatabaseConversion -DatabaseServer server\mssql19 -DatabaseName $dbName -Verbose -Force
 Set-NAVServerConfiguration -ServerInstance $serverInstance -KeyName DatabaseName -KeyValue $dbName -Verbose
 Set-NavServerConfiguration -ServerInstance $serverInstance -KeyName "EnableTaskScheduler" -KeyValue false -Verbose
 Restart-NAVServerInstance -ServerInstance $serverInstance -Verbose
